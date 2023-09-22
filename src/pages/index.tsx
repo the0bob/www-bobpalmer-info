@@ -1,4 +1,4 @@
-import type { FormEvent, FormEventHandler } from 'react';
+import type { FormEventHandler } from 'react';
 import axios from 'axios';
 import '../styles/index.css';
 
@@ -90,12 +90,11 @@ const portfolio = [
 
 export default function Index() {
   // see https://github.com/lxy-yz/vitesse-lite-react/blob/main/src/pages/index.tsx for usage example
-
-  const nameRef = useRef<HTMLInputElement>(null);
-  const emailRef = useRef<HTMLInputElement>(null);
-  const phoneRef = useRef<HTMLInputElement>(null);
-  const commentsRef = useRef<HTMLTextAreaElement>(null);
-
+  const nameRef = useRef<HTMLInputElement>(null)
+  const emailRef = useRef<HTMLInputElement>(null)
+  const phoneRef = useRef<HTMLInputElement>(null)
+  const commentsRef = useRef<HTMLTextAreaElement>(null)
+  const formMessageRef = useRef<HTMLTextAreaElement>(null)
   const [formLoading, setFormLoading] = useState(false);
   const [formSent, setFormSent] = useState(false);
 
@@ -120,7 +119,6 @@ export default function Index() {
       emailRef.current && (emailRef.current.value = '');
       phoneRef.current && (phoneRef.current.value = '');
       commentsRef.current && (commentsRef.current.value = '');
-
       setFormSent(true);
     }
 
