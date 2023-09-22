@@ -14,12 +14,12 @@
   align-self: center;
   width: 100%;
   padding-top: 40vh;
+}
 
-  .heading {
-    padding-left: calc(max(50vw - 420px, 32px));
-    background-color: rgba(0,0,0,.3);
-    width: 100vw;
-  }
+.heading {
+  padding-left: calc(max(50vw - 420px, 32px));
+  background-color: rgba(0,0,0,.3);
+  width: 100vw;
 }
 
 .profile-photo {
