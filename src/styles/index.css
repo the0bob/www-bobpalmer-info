@@ -7,34 +7,34 @@
   background: url(/react-code-bg.jpg) no-repeat center left;
   background-size: cover;
   background-attachment: fixed;
+}
 
-  .header-content {
-    text-align: center;
-    align-self: center;
-    width: 100%;
-    padding-top: 40vh;
+.header-content {
+  text-align: center;
+  align-self: center;
+  width: 100%;
+  padding-top: 40vh;
 
-    .heading {
-      padding-left: calc(max(50vw - 420px, 32px));
-      background-color: rgba(0,0,0,.3);
-      width: 100vw;
-    }
+  .heading {
+    padding-left: calc(max(50vw - 420px, 32px));
+    background-color: rgba(0,0,0,.3);
+    width: 100vw;
+  }
+}
 
-    .profile-photo {
-      width: 256px;
-      margin-right: calc(max(50vw - 420px, 0px));
-      margin-top: -150px;
-      float: right;
+.profile-photo {
+  width: 256px;
+  margin-right: calc(max(50vw - 420px, 0px));
+  margin-top: -150px;
+  float: right;
 
-      @media (max-width: 720px) {
-        width: 128px;
-        margin-top: -44px;
-      }
+  @media (max-width: 720px) {
+    width: 128px;
+    margin-top: -44px;
+  }
 
-      @media (max-width: 480px) {
-        display: none;
-      }
-    }
+  @media (max-width: 480px) {
+    display: none;
   }
 }
 
@@ -76,15 +76,6 @@
 }
 
 .contact-form {
-  .contact-input {
-    background-color: transparent;
-    display: block;
-    padding: 8px;
-    margin: 8px;
-    border: 4px solid #CCCCCC;
-    display: inline-block;
-  }
-
   margin: 8px 128px;
 
   @media (max-width: 720px) {
@@ -92,6 +83,15 @@
     padding: 24px;
     margin: 0;
   }
+}
+
+.contact-input {
+  background-color: transparent;
+  display: block;
+  padding: 8px;
+  margin: 8px;
+  border: 4px solid #CCCCCC;
+  display: inline-block;
 }
 
 .spacer {
