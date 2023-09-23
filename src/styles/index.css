@@ -10,21 +10,24 @@
 }
 
 .header-content {
-  text-align: center;
+  text-align: left;
   align-self: center;
   width: 100%;
   padding-top: 40vh;
 }
 
-.heading {
+.heading, .subheading {
   padding-left: calc(max(50% - 420px, 32px));
-  background-color: rgba(0,0,0,.3);
   width: calc(100vw - 16px);
+}
+
+.heading {
+  background-color: rgba(0,0,0,.3);
 }
 
 .profile-photo {
   width: 256px;
-  margin-right: calc(max(50vw - 420px, 0px));
+  margin-right: calc(max(50vw - 460px, 0px));
   margin-top: -150px;
   float: right;
 

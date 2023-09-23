@@ -133,15 +133,15 @@ export default function Index() {
             <img className="rounded-50" src="https://avatars.githubusercontent.com/u/13439002?&v=4" alt="Bob Palmer" />
           </div>
           <h1 className={'heading'}>Bob Palmer</h1>
+          <h4 className={'subheading'}>
+            <em>
+              Software Developer skilled in Web Apps, APIs, and Data Structures.
+            </em>
+          </h4>
         </div>
       </header>
 
       <section className={'about clear-both'}>
-        <h4 className="mb-4">
-          <em>
-            Software Developer skilled in Web Apps, APIs, and Data Structures.
-          </em>
-        </h4>
         <p>
           As an experienced full stack JavaScript developer, I specialize in creating outstanding web applications. With a degree in Computer Science, industry experience, and a lifelong passion for programming and technology, I have the expertise to bring ideas to life.
         </p>
