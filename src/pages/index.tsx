@@ -1,4 +1,4 @@
-import type { FormEventHandler } from 'react';
+import type { FormEvent, FormEventHandler } from 'react';
 import axios from 'axios';
 import '../styles/index.css';
 
@@ -94,7 +94,6 @@ export default function Index() {
   const emailRef = useRef<HTMLInputElement>(null)
   const phoneRef = useRef<HTMLInputElement>(null)
   const commentsRef = useRef<HTMLTextAreaElement>(null)
-  const formMessageRef = useRef<HTMLTextAreaElement>(null)
   const [formLoading, setFormLoading] = useState(false);
   const [formSent, setFormSent] = useState(false);
 

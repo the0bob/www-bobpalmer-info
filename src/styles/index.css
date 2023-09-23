@@ -17,9 +17,9 @@
 }
 
 .heading {
-  padding-left: calc(max(50vw - 420px, 32px));
+  padding-left: calc(max(50% - 420px, 32px));
   background-color: rgba(0,0,0,.3);
-  width: 100vw;
+  width: calc(100vw - 16px);
 }
 
 .profile-photo {
