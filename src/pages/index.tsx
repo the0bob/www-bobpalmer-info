@@ -64,6 +64,18 @@ const portfolio = [
   },
   {
     img: {
+      src: '/hob-icon.png',
+      className: 'rounded-50 mt--2',
+    },
+    title: 'Hobot',
+    description: 'A personal Discord Bot I use for administrating my private server. It\'s forked off of FumbleBot, the open-source bot I wrote for Crit Fumble Gaming.',
+    cta: {
+      label: 'View on Github',
+      url: 'https://github.com/the0bob/Hobot',
+    },
+  },
+  {
+    img: {
       src: '/github.png',
       className: 'rounded-50 mt--2 pb-0.7 bg-white',
     },
@@ -143,7 +155,7 @@ export default function Index() {
 
       <section className={'about clear-both'}>
         <p>
-          As an experienced full stack JavaScript developer, I specialize in creating outstanding web applications. With a degree in Computer Science, industry experience, and a lifelong passion for programming and technology, I have the expertise to bring ideas to life.
+          As an experienced full stack JavaScript developer, I specialize in creating web applications. With a degree in Computer Science, industry experience, and a lifelong passion for programming and technology, I have the knowledge and experience to bring ideas to life.
         </p>
         <p>
           I am committed to delivering high-quality work and maintaining clear communication throughout the project. My goal is to provide technical solutions that not only meet the needs of my clients, but also create a great experience for their users. If a client is unsure of what they need, I can help them figure out the technical details. During the lifecycle of a project, I value open, honest, and transparent communication. The result will be quality work, meeting project requirements, delivered on time.
@@ -215,7 +227,7 @@ export default function Index() {
             : <div className={'transition-all'}>
                 <div className={'py-5 px-10'}>
                   <p>
-                    Reach out today to discuss your project requirements and goals. We&apos;ll collaborate to bring your ideas to life in a way that is both scalable and sustainable.
+                    Reach out today to discuss your project requirements and goals. We&apos;ll collaborate to build your app in a way that is both scalable and sustainable.
                   </p>
                   <form className={'contact-form flex flex-col justify-center gap-1'} onSubmit={submit}>
                     <input
