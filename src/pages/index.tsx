@@ -41,10 +41,10 @@ const portfolio = [
   {
     img: {
       src: '/hob-icon.png',
-      className: 'rounded-50 mt--2',
+      className: 'rounded-50 mt--1',
     },
     title: 'Hobot',
-    description: 'A personal Discord Bot I use for administrating my private server. It\'s forked off of FumbleBot, the open-source bot I wrote for Crit Fumble Gaming.',
+    description: 'A personal multi-function Discord Bot I use on my Discord Servers. I have a sandbox set up in Discord if you\'d like to try it out.',
     cta: {
       label: 'Try on Discord',
       url: 'https://discord.gg/KRawGPpFng',
@@ -53,31 +53,19 @@ const portfolio = [
   {
     img: {
       src: 'https://avatars.githubusercontent.com/u/114275056?v=4',
-      className: 'rounded-50 mt--2',
+      className: 'rounded-50 mt--1',
     },
     title: 'Crit Fumble Gaming',
-    description: 'Some projects I\'m working on for an online gaming club, including a Discord Bot with OpenAI integration. You can find all of the source code, written in JavaScript, on GitHub',
+    description: 'A simple landing page I built on for an online gaming club.',
     cta: {
-      label: 'View on Github',
-      url: 'https://github.com/Crit-Fumble',
-    },
-  },
-  {
-    img: {
-      src: 'https://avatars.githubusercontent.com/u/81780877?&v=4',
-      className: 'rounded-50 bg-#AABBCC',
-    },
-    title: 'Playitec Games',
-    description: 'I\'ve tinkered with some different game engines such as Unity and Microsoft\'s XNA framework. You can find the source code for those projects, most of it written in C#,  here.',
-    cta: {
-      label: 'View on GitHub',
-      url: 'https://github.com/Playitec-Games',
+      label: 'Open Landing Page',
+      url: 'https://www.crit-fumble.com',
     },
   },
   {
     img: {
       src: '/github.png',
-      className: 'rounded-50 mt--2 pb-0.7 bg-white',
+      className: 'rounded-50 mt--1 pb-0.7 bg-white',
     },
     title: 'Personal Github',
     description: 'A few random projects I have for personal use. A lot of these are old, but there\'s a good mix of programming languages I\'ve worked in.',
@@ -86,10 +74,22 @@ const portfolio = [
       url: 'https://github.com/the0bob',
     },
   },
+  // {
+  //   img: {
+  //     src: 'https://avatars.githubusercontent.com/u/81780877?&v=4',
+  //     className: 'rounded-50 bg-#AABBCC',
+  //   },
+  //   title: 'Playitec Games',
+  //   description: 'I\'ve tinkered with some different game engines such as Unity and Microsoft\'s XNA framework. You can find the source code for those projects, most of it written in C#, on GitHub as well.',
+  //   cta: {
+  //     label: 'View on GitHub',
+  //     url: 'https://github.com/Playitec-Games',
+  //   },
+  // },
   {
     img: {
       src: '/resume.png',
-      className: 'rounded-50 mt--2 bg-white',
+      className: 'rounded-50 mt--1 bg-white',
     },
     title: 'Resume',
     description: 'More information about my work history and education.',
