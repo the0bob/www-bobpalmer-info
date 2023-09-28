@@ -76,18 +76,6 @@ const portfolio = [
   },
   {
     img: {
-      src: '/hob-icon.png',
-      className: 'rounded-50 mt--2',
-    },
-    title: 'Hobot',
-    description: 'A personal Discord Bot I use for administrating my private server. It\'s forked off of FumbleBot, the open-source bot I wrote for Crit Fumble Gaming.',
-    cta: {
-      label: 'View on Github',
-      url: 'https://github.com/the0bob/Hobot',
-    },
-  },
-  {
-    img: {
       src: '/github.png',
       className: 'rounded-50 mt--2 pb-0.7 bg-white',
     },
