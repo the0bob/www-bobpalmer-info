@@ -40,6 +40,18 @@ const skills = [
 const portfolio = [
   {
     img: {
+      src: '/hob-icon.png',
+      className: 'rounded-50 mt--2',
+    },
+    title: 'Hobot',
+    description: 'A personal Discord Bot I use for administrating my private server. It\'s forked off of FumbleBot, the open-source bot I wrote for Crit Fumble Gaming.',
+    cta: {
+      label: 'Try on Discord',
+      url: 'https://discord.gg/KRawGPpFng',
+    },
+  },
+  {
+    img: {
       src: 'https://avatars.githubusercontent.com/u/114275056?v=4',
       className: 'rounded-50 mt--2',
     },
@@ -60,18 +72,6 @@ const portfolio = [
     cta: {
       label: 'View on GitHub',
       url: 'https://github.com/Playitec-Games',
-    },
-  },
-  {
-    img: {
-      src: '/hob-icon.png',
-      className: 'rounded-50 mt--2',
-    },
-    title: 'Hobot',
-    description: 'A personal Discord Bot I use for administrating my private server. It\'s forked off of FumbleBot, the open-source bot I wrote for Crit Fumble Gaming.',
-    cta: {
-      label: 'View on Github',
-      url: 'https://github.com/the0bob/Hobot',
     },
   },
   {
