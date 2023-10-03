@@ -68,7 +68,7 @@ const portfolio = [
       className: 'rounded-50 bg-#AABBCC',
     },
     title: 'Playitec Games',
-    description: 'I\'ve tinkered with some different game engines such as Unity and Microsoft\'s XNA framework. You can find the source code for those projects, most of it written in C#, on GitHub as well.',
+    description: 'I\'ve tinkered with some different game engines such as Unity and Microsoft\'s XNA framework. You can find the source code for those projects, most of it written in C#, on GitHub.',
     cta: {
       label: 'View on GitHub',
       url: 'https://github.com/Playitec-Games',
@@ -80,7 +80,7 @@ const portfolio = [
       className: 'rounded-50 mt--1 pb-0.7 bg-white',
     },
     title: 'Personal Github',
-    description: 'A few random projects I have for personal use. A lot of these are old, but there\'s a good mix of programming languages I\'ve worked in.',
+    description: 'There\'s a few random projects I have for personal use on Github. A lot of these are old, but there\'s a good mix of programming languages I\'ve worked in.',
     cta: {
       label: 'View on Github',
       url: 'https://github.com/the0bob',
