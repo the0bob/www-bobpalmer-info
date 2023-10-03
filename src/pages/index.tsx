@@ -64,6 +64,18 @@ const portfolio = [
   },
   {
     img: {
+      src: 'https://avatars.githubusercontent.com/u/81780877?&v=4',
+      className: 'rounded-50 bg-#AABBCC',
+    },
+    title: 'Playitec Games',
+    description: 'I\'ve tinkered with some different game engines such as Unity and Microsoft\'s XNA framework. You can find the source code for those projects, most of it written in C#, on GitHub as well.',
+    cta: {
+      label: 'View on GitHub',
+      url: 'https://github.com/Playitec-Games',
+    },
+  },
+  {
+    img: {
       src: '/github.png',
       className: 'rounded-50 mt--1 pb-0.7 bg-white',
     },
@@ -74,18 +86,6 @@ const portfolio = [
       url: 'https://github.com/the0bob',
     },
   },
-  // {
-  //   img: {
-  //     src: 'https://avatars.githubusercontent.com/u/81780877?&v=4',
-  //     className: 'rounded-50 bg-#AABBCC',
-  //   },
-  //   title: 'Playitec Games',
-  //   description: 'I\'ve tinkered with some different game engines such as Unity and Microsoft\'s XNA framework. You can find the source code for those projects, most of it written in C#, on GitHub as well.',
-  //   cta: {
-  //     label: 'View on GitHub',
-  //     url: 'https://github.com/Playitec-Games',
-  //   },
-  // },
   {
     img: {
       src: '/resume.png',
