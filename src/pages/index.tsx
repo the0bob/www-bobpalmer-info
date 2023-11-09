@@ -130,7 +130,7 @@ export default function Index() {
       <header className={'header'}>
         <div className={'header-content'}>
           <div className={'profile-photo'}>
-            <img className="rounded-50" src="https://avatars.githubusercontent.com/u/13439002?&v=4" alt="Bob Palmer" />
+            <img className="rounded-50" src="/headshot.jpg" alt="Bob Palmer" />
           </div>
           <h1 className={'heading'}>Bob Palmer</h1>
           <h4 className={'subheading'}>
