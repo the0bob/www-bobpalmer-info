@@ -52,6 +52,18 @@ const portfolio = [
   },
   {
     img: {
+      src: '/storybook.svg',
+      className: 'mt--1 p-1.5',
+    },
+    title: 'Storybook',
+    description: 'A few React Components I put together into a package. I use this to test out new components and ideas.',
+    cta: {
+      label: 'View Storybook',
+      url: 'https://storybook.bobpalmer.info',
+    },
+  },
+  {
+    img: {
       src: '/github.png',
       className: 'rounded-50 mt--1 pb-0.7 bg-white',
     },
