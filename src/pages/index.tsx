@@ -80,7 +80,7 @@ const portfolio = [
       className: 'rounded-50 mt--1 pb-0.7 bg-white',
     },
     title: 'Personal Github',
-    description: 'There\'s a few projects I have on Github. A lot of these are old prototypes, but there\'s a good mix of programming languages I\'ve worked in.',
+    description: 'There\'s a few projects I have on Github, including those above. A lot of the ones not listed here are old prototypes, but there\'s a good mix of programming languages I\'ve worked in.',
     cta: {
       label: 'View on Github',
       url: 'https://github.com/the0bob',
