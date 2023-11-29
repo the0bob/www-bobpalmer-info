@@ -40,18 +40,6 @@ const skills = [
 const portfolio = [
   {
     img: {
-      src: '/hob-icon.png',
-      className: 'rounded-50 mt--1',
-    },
-    title: 'Hobot',
-    description: 'A personal multi-function Discord Bot I use on my Discord Servers. I have a sandbox set up in Discord if you\'d like to try it out.',
-    cta: {
-      label: 'Try on Discord',
-      url: 'https://discord.gg/KRawGPpFng',
-    },
-  },
-  {
-    img: {
       src: '/storybook.svg',
       className: 'mt--1 p-1.5',
     },
@@ -60,6 +48,30 @@ const portfolio = [
     cta: {
       label: 'View Storybook',
       url: 'https://storybook.bobpalmer.info',
+    },
+  },
+  {
+    img: {
+      src: '/sun.svg',
+      className: 'mt--1',
+    },
+    title: 'Weather App',
+    description: 'A simple weather app built in Next.js. It uses the Geocode.xyz and National Weather Service APIs to get the weather forecast for a given location in the United States. Note that only US locations work and the loading time is a bit slow due to the limits of the free APIs used.',
+    cta: {
+      label: 'Try App',
+      url: 'https://weather.bobpalmer.info',
+    },
+  },
+  {
+    img: {
+      src: '/hob-icon.png',
+      className: 'rounded-50 mt--1',
+    },
+    title: 'Hobot',
+    description: 'A personal multi-function Discord Bot I use on my Discord Servers. I have a sandbox set up in Discord if you\'d like to try it out.',
+    cta: {
+      label: 'Try on Discord',
+      url: 'https://discord.gg/KRawGPpFng',
     },
   },
   {
