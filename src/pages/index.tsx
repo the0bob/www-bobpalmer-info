@@ -50,18 +50,18 @@ const portfolio = [
       url: 'https://storybook.bobpalmer.info',
     },
   },
-  // {
-  //   img: {
-  //     src: '/sun.svg',
-  //     className: 'mt--1',
-  //   },
-  //   title: 'Weather App',
-  //   description: 'A simple weather app built in Next.js. It uses the Geocode.xyz and National Weather Service APIs to get the weather forecast for a given location in the United States. Note that only US locations work and the loading time is a bit slow due to the limits of the free APIs used.',
-  //   cta: {
-  //     label: 'Try App',
-  //     url: 'https://weather.bobpalmer.info',
-  //   },
-  // },
+  {
+    img: {
+      src: '/sun.svg',
+      className: 'mt--1',
+    },
+    title: 'Weather App',
+    description: 'A simple weather app built in Next.js. It uses the Geocode.xyz and National Weather Service APIs to get the weather forecast for a given location in the United States.',
+    cta: {
+      label: 'Try App',
+      url: 'https://weather.bobpalmer.info',
+    },
+  },
   {
     img: {
       src: '/hob-icon.png',
